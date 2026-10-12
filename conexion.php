@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
 $dbname = "ecommerce_db";
-$username = "root"; // O el usuario de MySQL que configuraste
-$password = "";     // Coloca aquí la contraseña de tu MySQL si la tienes
+$username = "root"; 
+$password = "";     
 
 try {
     $conexion = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
